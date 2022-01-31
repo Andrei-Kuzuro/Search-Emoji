@@ -1,0 +1,12 @@
+.emoji {
+    display: flex;
+    width: 300px;
+    justify-content: center;
+    flex-wrap: wrap;
+    align-items: baseline;
+}
+
+.emoji p {
+    margin-right: 10px;
+    font-size: 20px;
+}

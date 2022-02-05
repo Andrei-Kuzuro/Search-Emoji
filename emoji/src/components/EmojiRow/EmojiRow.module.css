@@ -1,0 +1,15 @@
+.emoji {
+  display: flex;
+  width: 300px;
+  justify-content: center;
+  flex-wrap: wrap;
+  align-items: baseline;
+  background-color: rgb(197, 255, 236);
+  border-radius: 30px;
+  margin-bottom: 5px;
+}
+
+.emoji p {
+  margin-right: 10px;
+  font-size: 20px;
+}

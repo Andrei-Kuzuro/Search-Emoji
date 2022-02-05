@@ -1,12 +1,11 @@
 import { ChangeEventHandler } from 'react';
-import styles from './Input.module.css'
-
+import styles from './Input.module.css';
 
 interface IProps {
-	value: string
-	onChange: ChangeEventHandler<HTMLInputElement>
+  value: string;
+  onChange: ChangeEventHandler<HTMLInputElement>;
 }
 
-export const Input = ( { onChange, value }: IProps ) => {
-	return <input className={styles.input} value={value} onChange={onChange}/>
-}
+export const Input = ({ onChange, value }: IProps) => {
+  return <input className={styles.input} value={value} onChange={onChange} />;
+};
